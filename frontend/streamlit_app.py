@@ -17,7 +17,8 @@ from typing import Any
 import requests
 import streamlit as st
 
-from frontend.ui_helpers import (
+# Same-folder import: Streamlit Cloud runs this file from frontend/, not repo root.
+from ui_helpers import (
     KIND_BLURBS,
     KIND_LABELS,
     build_analysis_payload,
