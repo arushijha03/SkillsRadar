@@ -4,6 +4,16 @@
 
 Enter a target role → get a data-driven breakdown of in-demand skills today + predictions for what will matter in 6–12 months, powered by live job descriptions, tech blogs, arXiv papers, and HackerNews signals.
 
+## Live Demo
+
+| | Link |
+|---|---|
+| **Try the app** (Streamlit UI) | [https://skillsradar-hfjwf7ewehabzwyj2sucd3.streamlit.app/](https://skillsradar-hfjwf7ewehabzwyj2sucd3.streamlit.app/) |
+| **API health check** (Railway backend) | [https://web-production-25187.up.railway.app/health](https://web-production-25187.up.railway.app/health) |
+| **API docs** | [https://web-production-25187.up.railway.app/docs](https://web-production-25187.up.railway.app/docs) |
+
+**Quick try:** open the Streamlit app → enter a target role (e.g. *Machine Learning Engineer*, area *NLP*) → click **Find my skills**.
+
 ## Problem Statement
 
 The tech skill landscape moves faster than the systems people use to track it:
@@ -241,9 +251,18 @@ python evaluation/ragas_eval.py `
 
 ## Deployment
 
-- **Railway backend:** Connect repo, set env vars, deploy (uses `railway.json` + `Dockerfile`)
-- **Streamlit Cloud frontend:** Point to `frontend/streamlit_app.py`, set `API_BASE_URL` to your Railway URL
-- Full guide: [`DEPLOYMENT.md`](DEPLOYMENT.md)
+**Production (live):**
+
+- **Frontend:** [Streamlit Cloud](https://skillsradar-hfjwf7ewehabzwyj2sucd3.streamlit.app/) — `frontend/streamlit_app.py`
+- **Backend:** [Railway](https://web-production-25187.up.railway.app/health) — `railway.json` + `Dockerfile`
+
+Streamlit Cloud secret:
+
+```toml
+API_BASE_URL = "https://web-production-25187.up.railway.app"
+```
+
+Full setup guide: [`DEPLOYMENT.md`](DEPLOYMENT.md)
 
 Required production environment variables:
 

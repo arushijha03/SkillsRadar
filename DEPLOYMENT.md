@@ -38,8 +38,10 @@ service is healthy.
 3. Add this secret:
 
 ```toml
-API_BASE_URL = "https://<railway-app>"
+API_BASE_URL = "https://web-production-25187.up.railway.app"
 ```
+
+(Production Streamlit app: https://skillsradar-hfjwf7ewehabzwyj2sucd3.streamlit.app/)
 
 4. Deploy and use the sidebar health check to confirm the API is reachable.
 
