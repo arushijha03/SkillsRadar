@@ -12,7 +12,7 @@ Enter a target role → get a data-driven breakdown of in-demand skills today + 
 | **API health check** (Railway backend) | [https://web-production-25187.up.railway.app/health](https://web-production-25187.up.railway.app/health) |
 | **API docs** | [https://web-production-25187.up.railway.app/docs](https://web-production-25187.up.railway.app/docs) |
 
-**Quick try:** open the Streamlit app → enter a target role (e.g. *Machine Learning Engineer*, area *NLP*) → click **Find my skills**.
+**Quick try:** open the Streamlit app → enter a target role (e.g. *Forward Deployed Engineer*, area *AI*) → click **Find my skills**.
 
 ## Problem Statement
 
