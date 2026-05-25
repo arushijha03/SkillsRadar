@@ -19,6 +19,12 @@ LANGCHAIN_TRACING_V2=true
 
 5. Deploy and confirm `https://<railway-app>/health` returns `healthy`.
 
+**If deploy fails at the Network step:** the app must listen on Railway's `$PORT`
+(not a hardcoded `8000`). This repo's `Dockerfile` uses `--port ${PORT}` for that.
+Also check **Deploy Logs** for crash-on-start (missing env vars, import errors).
+In Railway → **Settings** → **Networking**, generate a public domain after the
+service is healthy.
+
 ## Frontend: Streamlit Cloud
 
 1. Create a Streamlit Cloud app from the same GitHub repo.
