@@ -286,16 +286,9 @@ LANGCHAIN_TRACING_V2=true
 5. Open LangSmith project `skillradar` and show the multi-agent trace.
 6. Run `python evaluation/ragas_eval.py --output-json evaluation/ragas_scores.json` to show evaluation plumbing.
 
-## Resume Bullets
+## 6-Phase Build Plan
 
-- Built **SkillRadar**, a multi-agent FastAPI + Streamlit system that analyzes live job descriptions, tech blog vectors, arXiv papers, and Hacker News signals to forecast role-specific skill demand.
-- Implemented a LangGraph orchestration pipeline with JD, RAG, Trend, and Synthesis agents, producing Skill Velocity Scores across `in_demand_now`, `rising_6mo`, and `emerging_12mo` categories.
-- Integrated Pinecone-backed RAG ingestion from RSS feeds, LangSmith observability, RAGAs evaluation, Docker health checks, and Railway/Streamlit Cloud deployment configuration.
-- Added a 80+ test suite covering agents, API routes, RAG ingestion/retrieval, LangGraph orchestration, RAGAs helpers, Docker config, and frontend formatting.
-
-## 6-Day Build Plan
-
-| Day | Focus |
+| Phase | Focus |
 |---|---|
 | 1 | FastAPI + JD Agent |
 | 2 | RAG pipeline + Pinecone |
