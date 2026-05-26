@@ -1,4 +1,4 @@
-# SkillRadar
+# SkillsRadar
 
 **A Multi-Agent Intelligence System for Proactive Skill Development**
 
