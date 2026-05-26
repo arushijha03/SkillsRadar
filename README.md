@@ -8,6 +8,7 @@ Enter a target role → get a data-driven breakdown of in-demand skills today + 
 
 | | Link |
 |---|---|
+| **Watch Demo** | [https://www.loom.com/share/9ed0533b7ebc4dbbbfc830597f12d9dc](https://www.loom.com/share/9ed0533b7ebc4dbbbfc830597f12d9dc) |
 | **Try the app** (Streamlit UI) | [https://skillsradar-hfjwf7ewehabzwyj2sucd3.streamlit.app/](https://skillsradar-hfjwf7ewehabzwyj2sucd3.streamlit.app/) |
 | **API health check** (Railway backend) | [https://web-production-25187.up.railway.app/health](https://web-production-25187.up.railway.app/health) |
 | **API docs** | [https://web-production-25187.up.railway.app/docs](https://web-production-25187.up.railway.app/docs) |
